@@ -43,10 +43,10 @@ As shown above, we can see three anomalies. The left-most anomaly is easy to det
 As shown in the above graph, we can now clearly see that three anomalies have the highest peaks or changes as compared to other data points. It makes it more clearer to us. Now we can focus on these anomalous data points and model algortihms for their detection. We use this information in our modeling process as detailed in the notebook. Before starting the modeling process, we also analyze the Exponentially Weighted Moving Averages (EMWA) that are helpful in smoothing the graph as follows. But we skip them being not much useful.
 
 
-![Given Dataset Over Time Graph](figs/fig2u.png)
+![EMWA Over Time Graph](figs/fig2u.png)
 
 
-For modeling the Anomaly Detection problem, we trained and evalauted following two algorithms:
+For modeling the Anomaly Detection problem, we trained and evaluated following two algorithms:
 
 
 <ul>
@@ -54,6 +54,7 @@ For modeling the Anomaly Detection problem, we trained and evalauted following t
 <li>Isolation Forest Model</li>
 </ul>
 
+Their training process has been given in the notebook. Once they have been modeled separately, their evaluation results for anomaly detection are given in the following two graphs:
 
 ![Once Class SVM based Anomaly Detection Graph](figs/fig3u.png)
 
@@ -63,46 +64,9 @@ For modeling the Anomaly Detection problem, we trained and evalauted following t
 ![Isolation Forest based Anomaly Detection Graph](figs/fig4u.png)
 
 
+As it can be seen from the above two graphs, One class SVM is quite efficient but not very accurate relatively, as it also labels other normal data points incorrectly as anomalous. On the other hand, Isolation Forest model is comparatively more accurate and effective, but lesser efficient with more computational time.
 
-<ul>
-<li>Random Forest Regressor</li>
-<li>XGBoost Regressor</li>
-<li>Linear Regessor</li>
-</ul>
 
-Once above regressors were trained, we evaluted them separately on three evaluation metrics,as follows:
-
-<ul>
-<li>Mean Absolute Error (MAE)</li>
-<li>Mean Squared Error (very good in telling about the variance in result values, so more desirable metric)</li>
-<li>Scikit-learn Regression Score (Maximum value = 1.0) </li>
-</ul>
-
-The evaluation results for three regressors are as follows:
-
-**Random Forest Regressor:**
-
-MAE: **4.54832675696375**
-
-MSE: **36.48255827784976**
-
-Multi Target Output Random Forest Based Regressor Score: **0.701**
-
-**XGBoost Regressor:**
-
-MAE: 6.956283390349816
-
-MSE: 77.05458382962796
-
-Multi Target Output XGBoost based Regressor Score: 0.37
-
-**Linear Regressor:**
-
-MAE: 7.233133556966823
-
-MSE: 82.39727180323428
-
-Multi Target Output Linear Regressor Score: 0.326
 
 ### Conclusion
 
