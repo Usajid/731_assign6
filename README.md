@@ -20,7 +20,7 @@ If you are interested in only looking at notebook, please access the notebook in
 
 ### Dataset:
 
-I used the **Machine Temperature System Failure** dataset for this Anomaly Detection modeling assignment. (Data csv file is in /data/machine_temperature_system_failure.csv).
+I used the **Machine Temperature System Failure** dataset (https://github.com/numenta/NAB/tree/master/data) for this Anomaly Detection modeling assignment. (Data csv file is in /data/machine_temperature_system_failure.csv).
 
 ### Process:
 
