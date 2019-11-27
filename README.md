@@ -26,7 +26,7 @@ I used the **Machine Temperature System Failure** dataset (https://github.com/nu
 
 <ul>
 <li>First I did feature engineering. Please refer to notebook for more details.</li>
-<li>Then, I did change in value over time graphical anlysis on the given dataset.</li>
+<li>Then, I did change in value over time graphical analysis and EMWA graphical analysis on the given dataset.</li>
 <li>Finally, we trained and evaluated two anomaly detection based models separately on the given dataset to detect anomalies.</li>
 </ul>
 
