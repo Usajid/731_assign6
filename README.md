@@ -35,6 +35,27 @@ Since we have to regress scores for both teams (multi-output regression), so I u
 
 ![Given Dataset Over Time Graph](figs/fig1u.png)
 
+
+
+
+![Given Dataset Over Time Graph](figs/fig2u.png)
+
+
+
+
+![Given Dataset Over Time Graph](figs/fig2au.png)
+
+
+
+
+
+![Given Dataset Over Time Graph](figs/fig3u.png)
+
+
+
+
+![Given Dataset Over Time Graph](figs/fig4u.png)
+
 <ul>
 <li>Random Forest Regressor</li>
 <li>XGBoost Regressor</li>
