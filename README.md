@@ -36,7 +36,7 @@ According to the given dataset we are using, there are **three anomalies** in it
 ![Given Dataset Over Time Graph](figs/fig1u.png)
 
 
-
+As shown above, we can see three anomalies. The left-most anomaly is easy to detect, but next two anomalies are much closer to the normal data points. So, this makes it a challenging task for us. Next, 
 
 ![Given Dataset Over Time Graph](figs/fig2u.png)
 
@@ -48,13 +48,14 @@ According to the given dataset we are using, there are **three anomalies** in it
 
 
 
-
-![Given Dataset Over Time Graph](figs/fig3u.png)
-
+![Once Class SVM based Anomaly Detection Graph](figs/fig3u.png)
 
 
 
-![Given Dataset Over Time Graph](figs/fig4u.png)
+
+![Isolation Forest based Anomaly Detection Graph](figs/fig4u.png)
+
+
 
 <ul>
 <li>Random Forest Regressor</li>
