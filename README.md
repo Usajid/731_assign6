@@ -38,14 +38,21 @@ According to the given dataset we are using, there are **three anomalies** in it
 
 As shown above, we can see three anomalies. The left-most anomaly is easy to detect, but next two anomalies are much closer to the normal data points. So, this makes it a challenging task for us. Next, to analyze the change in value over time for differetn data points, we plot the value change per datapoint over time as follows:
 
-![Given Dataset Over Time Graph](figs/fig2au.png)
+![Change in Value Over Time Graph](figs/fig2au.png)
 
-
+As shown in the above graph, we can now clearly see that three anomalies have the highest peaks or changes as compared to other data points. It makes it more clearer to us. Now we can focus on these anomalous data points and model algortihms for their detection. We use this information in our modeling process as detailed in the notebook. Before starting the modeling process, we also analyze the Exponentially Weighted Moving Averages (EMWA) that are helpful in smoothing the graph as follows. But we skip them being not much useful.
 
 
 ![Given Dataset Over Time Graph](figs/fig2u.png)
 
 
+For modeling the Anomaly Detection problem, we trained and evalauted following two algorithms:
+
+
+<ul>
+<li>One Class SVM</li>
+<li>Isolation Forest Model</li>
+</ul>
 
 
 ![Once Class SVM based Anomaly Detection Graph](figs/fig3u.png)
