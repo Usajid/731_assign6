@@ -1,1 +1,6 @@
 
+Python >= 3.5.2
+
+Matplotlib
+
+Scikit-learn
