@@ -33,7 +33,7 @@ I used the **Machine Temperature System Failure** dataset (https://github.com/nu
 ### Discussion and Results:
 Since we have to regress scores for both teams (multi-output regression), so I used MultiOutputRegressor module of scikit-learn. Using this module, it outputs multiouput regression values using given Regression model. For this assignment, I trained and evaluated three regression models as follows:
 
-![Given Dataset Over Time Graph](figs/fig1)
+![Given Dataset Over Time Graph](figs/fig1.png)
 
 <ul>
 <li>Random Forest Regressor</li>
