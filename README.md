@@ -31,7 +31,7 @@ I used the **Machine Temperature System Failure** dataset (https://github.com/nu
 </ul>
 
 ### Discussion and Results:
-Since we have to regress scores for both teams (multi-output regression), so I used MultiOutputRegressor module of scikit-learn. Using this module, it outputs multiouput regression values using given Regression model. For this assignment, I trained and evaluated three regression models as follows:
+According to the given dataset we are using, there are **three anomalies** in it. We have to detect these anomalies using some Machine Learning Algorithm suitable for this problem. First we analyze the dataset and anomalies by making a time plot as follows:
 
 ![Given Dataset Over Time Graph](figs/fig1u.png)
 
