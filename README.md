@@ -13,22 +13,21 @@ If you are interested in only looking at notebook, please access the notebook in
 ### Objective:
 
 <ul>
-<li>Pick one dataset from given various leagues like NFL, MLB, NBA and Soccer</li>
-<li>Do feature engineering as a pre-process for regression modeling</li>
-<li>Do regression based modeling to determine scores of each team</li>
+<li>Pick one dataset from given Anomaly Detection Benchmarks</li>
+<li>Do feature engineering as a pre-process for Anomaly Detection</li>
+<li>Do Anomaly Detection based modeling to detect anomalies in the given dataset</li>
 </ul>
 
 ### Dataset:
 
-I used the NFL dataset for this regression modeling assignment. (Data csv file is in /data/nfl_games.csv)
+I used the **Machine Temperature System Failure** dataset for this Anomaly Detection modeling assignment. (Data csv file is in /data/machine_temperature_system_failure.csv).
 
 ### Process:
 
 <ul>
-<li>First I did feature engineering. Main feature engineering includes combining/addition of features, and removing redundant/irrelevant features. Please refer to notebook for more details.</li>
-<li>Divided the dataset into training/testing split of 80/20 percentage.</li>
-<li>Trained three regression models separately on the training dataset.</li>
-<li>Finally, evaluated above trained models on testing dataset under three evaluation metrics.</li>
+<li>First I did feature engineering. Please refer to notebook for more details.</li>
+<li>Then, I did change in value over time graphical anlysis on the given dataset.</li>
+<li>Finally, we trained and evaluated two anomaly detection based models separately on the given dataset to detect anomalies.</li>
 </ul>
 
 ### Discussion and Results:
