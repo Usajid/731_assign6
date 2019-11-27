@@ -8,7 +8,7 @@ If you are interested in only looking at notebook, please access the notebook in
 
 /notebooks: Contains the notebook of this assignment.
 
-/data: Contains the data csv file (mts_failure.csv)
+/data: Contains the data csv file (machine_temperature_system_failure.csv)
 
 ### Objective:
 
